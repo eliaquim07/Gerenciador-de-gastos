@@ -1,0 +1,37 @@
+Gerenciador de gastos
+
+Este é um projeto de extensão que estou desenvolvendo para a faculdade (UniRios). A ideia é criar um sistema bem simples para ajudar pequenos agricultores (focado na cultura da melancia e similares) a controlarem o lado financeiro da safra.
+
+No campo, muita gente ainda anota os gastos com trator, adubo e veneno em um caderno de papel. O problema é que, no final da roça, dá muito trabalho somar tudo e saber exatamente se a safra deu lucro ou prejuízo.
+
+Fiz esse sisteminha para ser direto ao ponto. Ele faz basicamente o seguinte:
+
+Tem uma tela simples para lançar os gastos diários e as vendas.
+
+Mostra uma tabela com o histórico de tudo que foi anotado.
+
+Tem um painel em cima que já calcula e mostra na hora o lucro final.
+
+Permite apagar algum registro caso o agricultor digite o valor errado.
+
+O que usei para fazer
+
+Python: A linguagem principal.
+
+Streamlit: Para fazer a tela de forma rápida.
+
+SQLite: O banco de dados (escolhi ele porque não precisa instalar nenhum servidor pesado, o arquivo salva localmente).
+
+Pandas: Para fazer a leitura da tabela e calcular as somas de forma mais fácil.
+
+Como testar no seu PC
+
+Se você quiser baixar o código e rodar no seu próprio computador, é só abrir o terminal na pasta do projeto e rodar os comandos abaixo:
+
+Instale as bibliotecas necessárias:
+pip install -r requirements.txt
+
+Ligue o sistema:
+streamlit run app.py (ou python -m streamlit run app.py)
+
+O site vai abrir automaticamente no seu navegador.
